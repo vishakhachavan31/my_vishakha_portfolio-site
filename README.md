@@ -20,3 +20,22 @@ Implement a contact form on the portfolio website to allow visitors to get in to
 - `index.html`
 - `styles.css`
 - `scripts.js`
+## Description
+The navigation bar fails to collapse properly when viewed on mobile devices. This results in an awkward user experience.
+
+## Steps to Reproduce
+1. Open the website on a mobile device or in a browser's responsive design mode.
+2. Click on the navigation toggle button.
+3. Observe that the menu items are not collapsing or displaying correctly.
+
+## Expected Behavior
+- The navigation bar should collapse into a hamburger menu.
+- Clicking the hamburger menu should display the navigation links properly.
+
+## Related Files
+- `navbar.css`
+- `main.js`
+
+## Suggested Fix
+- Investigate the JavaScript responsible for the toggle functionality.
+- Update the CSS to ensure responsive behavior.
